@@ -17,15 +17,16 @@
                 </div>
 
             </div>
-            <form id="Quiz" action="index.html" method="POST" name="Quiz">
+            <form id="pharmacy" action="index.html" method="POST" name="pharmacy">
                     <div class="well">
                             
                                 <p><strong>List of medecines</strong></p><br>
                                 <label><input type="checkbox" name="antibiot"  value="Amoxicilliine" required> Amoxicilliine 250g ~ 1000frw</label><br>
                                 <label><input type="checkbox" name="antibiot"  value="Amoxicilliine" required> Amoxicilliine 500g ~ 1000frw</label><br>
-                                <label><input type="checkbox" name="pain-killer"  value="Ibuprofen" required> Ibuprofen 250g ~ 400frw</label><br>
-                                <label><input type="checkbox" name="pain-killer"  value="Ibuprofen" required> Ibuprofen 500g ~ 400frw</label><br>
-                                <label><input type="checkbox" name="pain-killer"  value="paracetamol" required> paracetamol 500g ~ 100frw</label><br>
+                                <label><input type="checkbox" name="painKiller"  value="Ibuprofen" required> Ibuprofen 250g ~ 400frw</label><br>
+                                <label><input type="checkbox" name="painKiller"  value="Ibuprofen" required> Ibuprofen 500g ~ 400frw</label><br>
+                                <label><input type="checkbox" name="painkiller"  value="paracetamol" required> paracetamol 500g ~ 100frw</label><br>
+                                <input type="button" name="results" value="Total Price" id="button" class="btn btn-success" onClick="check();">
                                 <p><strong> Location</strong></p><br>
                                 <ul>
                                     <li>Kisimenti</li>
@@ -49,13 +50,19 @@
                         </form>
                         
         </div>
-    
+        <div id="price">
+            <p id="correctNumber">HERE IS YOUR TOTAL PRICE :</p>
+        </div>
            
             <footer>
                     <p>Time 8h:00 am-00:pm</p>
                     <p>Contact 078888855</p>
                 </footer>
         
+                <script src="js/bootstrap.min.js"></script>
+                <script src="js/scripts.js"></script>
+                <script src="js/jquery.js"></script>
+                
         </body>
     </html>
 
