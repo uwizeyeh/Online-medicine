@@ -15,13 +15,15 @@ function check() {
     };
     if (painKiller == "paracetamol") {
         price = price + 100;
-    };
+    }
+
     console.log("price")
     document.getElementById("price").style.visibility = "visible";
-    document.getElementById("correctNumber").innerHTML = "HERE IS YOUR TOTAL PRICE: " + price + "";
+    document.getElementById("correctNumber").innerHTML = "HERE IS YOUR TOTAL PRICE: " + price ;
     console.log("price")
 
 };
+
 // Business-Logic
 
 

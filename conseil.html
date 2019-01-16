@@ -6,29 +6,31 @@
        <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
        <link rel="stylesheet" type="text/css" href="css/styles.css">
-       <title>Kpharma</title>
+       <title>conseil</title>
     </head>
     <body>
+        <div id ="conseil">
         <div class="container">
             <div class="jumbtron">
                 <div class="panel panel-info">
-                    <h1>Medecines</h1>
+                    <h1>Conseil Pharmacy</h1>
 
                 </div>
 
             </div>
-            <form id="Quiz" action="index.html" method="POST" name="Quiz">
+            <form id="pharmacy" action="index.html" method="POST" name="pharmacy">
                     <div class="well">
                             
-                                <p><strong>List of medecines</strong></p><br>
+                                <p id ="list" ><strong>List of medecines</strong></p><br>
                                 <label><input type="checkbox" name="antibiot"  value="Amoxicilliine" required> Amoxicilliine 250g ~ 1000frw</label><br>
                                 <label><input type="checkbox" name="antibiot"  value="Amoxicilliine" required> Amoxicilliine 500g ~ 1000frw</label><br>
-                                <label><input type="checkbox" name="pain-killer"  value="Ibuprofen" required> Ibuprofen 250g ~ 400frw</label><br>
-                                <label><input type="checkbox" name="pain-killer"  value="Ibuprofen" required> Ibuprofen 500g ~ 400frw</label><br>
-                                <label><input type="checkbox" name="pain-killer"  value="paracetamol" required> paracetamol 500g ~ 100frw</label><br>
+                                <label><input type="checkbox" name="painKiller"  value="Ibuprofen" required> Ibuprofen 250g ~ 400frw</label><br>
+                                <label><input type="checkbox" name="painKiller"  value="Ibuprofen" required> Ibuprofen 500g ~ 400frw</label><br>
+                                <label><input type="checkbox" name="painKiller"  value="paracetamol" required> paracetamol 500g ~ 100frw</label><br>
+                                <input type="button" name="results" value="Total Price" id="button" class="btn btn-success" onClick="check();">
                                 <p><strong> Location</strong></p><br>
                                 <ul>
-                                    <li>Kisimenti</li>
+                                    <li>Kacyiru</li>
                                     <li>Kigali heigt</li>
                                     <li>Town</li>
                                 </ul>
@@ -36,12 +38,17 @@
                                 <ol>
                                         <li>RAMA</li>
                                         <li>MMI</li>
-                                        <li>MEDIPLAN(SORAS)</li> 
+                                        <li>MEDIPLAN(SORAS)</li>
+                                        <li>BK</li>
+
                                     
                                 </ol>
                                 <a href="pharmarcy.html"> BACK</a>
 
                                 
+                    </div>
+                    <div id="price">
+                        <p id="correctNumber">HERE IS YOUR TOTAL PRICE :</p>
                     </div>
                     
 
@@ -50,10 +57,26 @@
             </form>
                         
             </div>
-            <footer>
-                    <p>Time 8h:00 am-00:pm</p>
-                    <p>Contact 078888855</p>
-                </footer>
+        
+        <div class="panel panel-default">
+                <div class="panel-body">
+                    
+                        <p>Time 7h:00 am-00:pm</p>
+                        <p>Contact 078856755</p>
+                    </div>    
+                    
+                 
+                </div>
+        <div class="panel-footer">
+                
+                        
+
+        </div>
+    </div>
+                <script src="js/jquery.js"></script>
+                <script src="js/bootstrap.min.js"></script>
+                <script src="js/scripts.js"></script>
+                   
     
            
         
