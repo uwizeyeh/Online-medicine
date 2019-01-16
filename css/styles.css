@@ -22,12 +22,14 @@ background-color:#cccccc;
 }
 h1{
    
-    background-image: url(../images/phalogo.png);
-    background-repeat: no-repeat;
-    width: 100px;
-    height: 100px;
+   
     text-align: center;
    
+}
+#System{
+    background-image: url(../images/back3.jpeg);
+    background-repeat:no-repeat;
+    background-size: cover; 
 }
 
 #list,#pharm{
