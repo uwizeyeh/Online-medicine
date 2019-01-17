@@ -17,7 +17,7 @@
          background-size: cover;
 }
 .jumbtron{
-background-color:#cccccc;
+background-color:lightgrey;
 
 }
 h1{
@@ -26,15 +26,41 @@ h1{
     text-align: center;
    
 }
+#med{
+     background-color: rgb(130, 184, 44);
+
+}
+.panel{
+  background-color:linen;
+}
+#med p{
+  color: rgb(12, 11, 12);
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+
+
+}
 #System{
-    background-image: url(../images/back3.jpeg);
-    background-repeat:no-repeat;
-    background-size: cover; 
+  background-image:url(../images/pharm1.jpeg) ;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h3{
+  font-weight: bold;
+}
+#ima{
+  text-align: center;
+  
+
+  border-radius: 4%;
 }
 
 #list,#pharm{
     font-size: 24px;
+    
+
 }
+
 .well{
     background-color: bisque;
 }

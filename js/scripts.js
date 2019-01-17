@@ -4,17 +4,22 @@ function check() {
     console.log("antibiot");
     var painKiller = document.pharmacy.painKiller.value;
     console.log("painKiller")
+    var AntimalarialDrugs = document.pharmacy.AntimalarialDrugs.value;
+    console.log("AntimalarialDrugs")
     var price = 0;
 
 
-    if (antibiot == "Amoxicilliine") {
+    if (antibiot == 0) {
         price = price + 1000;
     };
-    if (painKiller == "Ibuprofen") {
+    
+    
+    if (painKiller == 0) {
         price = price + 400;
     };
-    if (painKiller == "paracetamol") {
-        price = price + 100;
+    
+    if (AntimalarialDrugs == 0) {
+        price = price + 2500;
     }
 
     console.log("price")
